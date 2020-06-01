@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.main {
+    background: #efefef;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 30px;
+}
+
+.main h1 {
+    margin-bottom: 50px;
+}
+
+#box {
+    /* width: 50px; */
+    height: 50px;
+    line-height: 50px;
+    background: #efefef;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 1px 1px 5px #000;
+    font-size: 30px;
+}
+
+.btn {
+    display: flex;
+}
+
+.inc,
+.dec {
+    margin: 10px;
+    padding: 10px;
+    background: #fcfbfc;
+    margin-top: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.reset {
+    background: orange;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
